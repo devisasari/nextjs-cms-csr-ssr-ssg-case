@@ -1,6 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Case Study - PM Case (for Devs) for Young Coders Club (Havas CX) 
+## Case Study: Applying different rendering patterns using Next.js and any Headless CMS
 
-## Getting Started
+### What do I want?
+
+I want you to create a post model in any headless CMS platform (such as Contentful,
+Hygraph, Strapi, or PayloadCMS), then use that model to create a sample post content.
+After that, I’d like you to use Next.js to access your newly created content from your
+preferred CMS platform and create three simple pages to render your fetched content
+while applying the rendering patterns we have discussed.
+
+### Criteria:
+- Creating a model using a schema. The model should include the fields below:
+- Title -> Single-line text
+- Author -> Single-line text
+- Excerpt/Post/Body/Content (you can use whichever name you prefer) -> Multi-
+line text
+- Featured Image -> Asset
+- *Created At (this field is usually automatically created by the CMS when you
+publish content, for example, Hygraph does this)
+- You must use Next.js.
+- You must create three pages to demonstrate and apply the CSR, SSG, and SSR
+rendering patterns.
+- Each post page should include a banner. The banner component should consist of a
+button to navigate back to the homepage and a title stating which rendering pattern
+was used.
+- Regarding styling of the project, there are no hard rules on how the design should
+be or which technology should be used. For styling, you can use CSS Modules, SCSS,
+TailwindCSS, Styled-components, Emotion, Stitches, Vanilla-extract, or anything else
+you feel comfortable using and want to use.
+
+
+
+#### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+### Getting Started
 
 First, run the development server:
 
@@ -13,26 +46,3 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
