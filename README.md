@@ -1,4 +1,4 @@
-# Case Study - PM Case (for Devs) for Young Coders Club (Havas CX) 
+# Case Study - Next.js & Headless CMS Case Young Coders Club (Havas CX) 
 - ### [Live Demo](https://nextjs-cms-csr-ssr-ssg-case.vercel.app/)
 ## About Case Study: Applying different rendering patterns using Next.js and any Headless CMS
 
